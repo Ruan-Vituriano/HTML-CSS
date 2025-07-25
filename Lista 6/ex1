@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int num, vet[3];
+    for(int i = 0; i < 3; i++){
+        scanf("%d", &vet[i]);
+    }
+    
+    printf("Escreva um numero inteiro:\n");
+    scanf("%d", &num);
+    num--;
+    
+    printf("Posicao %d, eh %d",++num, vet[num]);
+
+    return 0;
+}
